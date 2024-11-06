@@ -1,4 +1,4 @@
-# Сайт для туру по Швейцарії
+# Сайт Silver 
 
 ![Скріншот сайту](https://github.com/tsisar-daria/jewelry/blob/main/img/screen.png)
 
