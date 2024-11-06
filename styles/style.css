@@ -12,7 +12,7 @@
     font-family: 'Tenor Sans', sans-serif;
     color: #fff;
     overflow: hidden;
-    background: url('jewelry/img/img.jpg') no-repeat center center/cover;
+    background: url('/jewelry/img/img.jpg') no-repeat center center/cover;
   }
   
   header {
