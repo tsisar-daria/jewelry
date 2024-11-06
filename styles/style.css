@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Tenor Sans', sans-serif;
+    color: #fff;
+    overflow: hidden;
+    background: url('/img/img.jpg') no-repeat center center/cover;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+    padding-block: 10px;
+    background-color: #0000007e;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    background-color: #333;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+  }
+  
+  .hero-text {
+    padding: 0 20px;
+    position: absolute;
+    bottom: 130px;
+    left: 30px;
+    text-align: left;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    font-weight: 200;
+  }
+  
+  .hero-text button {
+    padding: 10px 30px;
+    font-size: 1em;
+    color: #000;
+    background-color:#e0e0e08f;
+    border: none;
+    cursor: pointer;
+    /* transition: background-color 0.2s; */
+    font-weight: bold;
+  }
+  
+  .hero-text button:hover {
+    background-color: #cecdcd;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #000;
+      flex-direction: column;
+      width: 150px;
+      display: none;
+      z-index: 10;
+    }
+  
+    .nav-links.active {
+      display: flex;
+      padding-block: 10px;
+    }
+
+    .menu-icon {
+      display: block;
+    }
+  
+    .hero-text h1 {
+      font-size: 2em;
+    }
+  
+    .hero-text button {
+      font-size: 0.9em;
+    }
+  }
+  
