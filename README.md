@@ -1,4 +1,4 @@
-# Сайт Silver 
+# Silver 
 
 ![Скріншот сайту](https://github.com/tsisar-daria/jewelry/blob/main/img/screen.png)
 
